@@ -33,8 +33,9 @@ header {
     text-align:right;
 }
 
-cabin {
+plane {
     display: flex;
+    flex-direction: row;
 }
 
 leftwing {
