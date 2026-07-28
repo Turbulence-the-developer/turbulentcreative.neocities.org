@@ -33,7 +33,7 @@ header {
     text-align:right;
 }
 
-plane {
+div {
     display: flex;
     flex-direction: row;
 }
