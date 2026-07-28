@@ -33,19 +33,19 @@ header {
     text-align:right;
 }
 
-.cabin {
+cabin {
     display: flex;
 }
 
-.leftwing {
+leftwing {
     flex:1;
 }
 
-.rightwing {
+rightwing {
     flex:4;
 }
 
-.fuselage {
+fuselage {
     flex:2;
 }
 
