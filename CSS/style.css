@@ -5,23 +5,23 @@ h1 {
 }
 
 h2 {
- 
+ color:aqua
 }
 
 h3 {
-
+ color:aqua
 }
 
 h4 {
-
+ color:aqua
 }
-
+ color:aqua
 p {
-
+ color:aqua
 }
 
 hr {
-
+ color:aqua
 }
 
 
@@ -49,4 +49,6 @@ header {
     flex:2;
 }
 
-#nav
+#nav {
+ color:aqua
+}
