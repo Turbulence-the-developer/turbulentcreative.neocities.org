@@ -5,7 +5,7 @@ h1 {
 }
 
 h2 {
-
+ 
 }
 
 h3 {
@@ -20,9 +20,34 @@ p {
 
 }
 
-/*Flexbox*/
+hr {
 
-.fuselage {
-    display:flex
 }
 
+
+
+
+/*Flexbox*/
+
+header {
+    text-align:right;
+}
+
+.cabin {
+    display: flex;
+    margin: 
+}
+
+.leftwing {
+    flex:1;
+}
+
+.rightwing {
+    flex:4;
+}
+
+.fuselage {
+    flex:2;
+}
+
+#nav
