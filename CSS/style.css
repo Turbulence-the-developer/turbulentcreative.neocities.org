@@ -44,19 +44,30 @@ div {
 
 leftwing {
     flex:1;
+    padding: 0%;
+    margin: auto;
+    border:0cap /*size style color and you can make each side a different one of these
+    margin collapsing, the larger size wins, only for vertical*/
 }
 
 fuselage {
     flex:2;
+    padding: 0%;
+    margin: auto
 }
 
 rightwing {
     flex:4;
     overflow-y: scroll;
+    padding: 0%;
+    margin: auto
 }
 
 nav {
  background-color:rgb(128, 57, 39)
 }
 
-/*use transform to rotating, scaling, skewing, or translating (moving) them in 2D or 3D space.*/
+/*use transform to rotating, scaling, skewing, or translating (moving) them in 2D or 3D space.
+for example transform: translate(50px, 50px) rotate(45deg) scale(1.5, h);
+display: none; visibility: hidden*/
+/*use a space, >, ~, or + to target specific classes*/
