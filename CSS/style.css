@@ -1,7 +1,11 @@
 /*Styling*/
 
 h1 {
- color:aqua
+ width:auto;
+ height:auto;
+ min-height:auto;
+ max-height: auto;
+ max-width: auto;
 }
 
 h2 {
@@ -42,14 +46,17 @@ leftwing {
     flex:1;
 }
 
-rightwing {
-    flex:4;
-}
-
 fuselage {
     flex:2;
 }
 
-#nav {
- color:aqua
+rightwing {
+    flex:4;
+    overflow-y: scroll;
 }
+
+nav {
+ background-color:rgb(128, 57, 39)
+}
+
+/*use transform to rotating, scaling, skewing, or translating (moving) them in 2D or 3D space.*/
